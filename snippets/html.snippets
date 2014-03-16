@@ -125,13 +125,3 @@ snippet dump
 		<pre class="dumper__i" data-dumper="${1:c.stash}">[% Dumper.dump(${2:c.stash}) %]</pre>
 	</div>
 	[% END %]
-
-#some js
-snippet dom
-	$(function(){
-		${1}
-	})
-snippet $
-	$(${1}).${2:click}(function(e){
-		${3}
-	})
