@@ -2,9 +2,13 @@ snippet {
 	{% ${0} %}
 snippet {{
 	{{ ${0} }}
-	snippet {#
+snippet {#
 	{# ${0} #}
 snippet {c
 	{% comment %}
 		${0}
 	{% endcomment %}
+snippet {b
+	{% block ${1} %}
+		${0}
+	{% endblock ${1} %}
