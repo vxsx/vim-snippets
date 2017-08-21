@@ -14,6 +14,14 @@ snippet @ibr
 	@include border-radius(${0}px);
 snippet @ibs
 	@include box-shadow(${0});
+snippet @mingb
+	@media (min-width: $grid-float-breakpoint) {
+		${0}
+	}
+snippet @maxgb
+	@media (max-width: $grid-float-breakpoint-max) {
+		${0}
+	}
 snippet @minsm
 	@media (min-width: $screen-sm-min) {
 		${0}
