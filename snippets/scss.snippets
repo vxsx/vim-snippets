@@ -46,3 +46,15 @@ snippet @maxmd
 	@media (max-width: $screen-md-max) {
 		${0}
 	}
+snippet @mbu
+	@include media-breakpoint-up(${0:sm}) {
+		${1}
+	}
+snippet @mbd
+	@include media-breakpoint-down(${0:sm}) {
+		${1}
+	}
+snippet @mbo
+	@include media-breakpoint-only(${0:sm}) {
+		${1}
+	}
