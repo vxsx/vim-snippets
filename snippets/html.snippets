@@ -122,3 +122,8 @@ snippet dump
 		<pre class="dumper__i" data-dumper="${1:c.stash}">[% Dumper.dump(${1:c.stash}) %]</pre>
 	</div>
 	[% END %]
+# django
+snippet {
+	{% ${0} %}
+snippet icon
+	{% include 'includes/icon.html' with icon='${0}' %}
