@@ -1,32 +1,5 @@
-# switch
-snippet switch
-	switch(${1:expression}) {
-		case '${3:case}':
-			${4:// code}
-			break;
-		${5}
-		default:
-			${2:// code}
-	}
-# case
-snippet case
-	case '${1:case}':
-		${2:// code}
-		break;
-	${3}
-snippet q
-	querySelectorAll('${0}')
-# Get Element
-snippet get
-	getElementBy${1:Id}('${0}')
-snippet log
-	console.log(${0});
 #most used snippet ever
 snippet {
 	{
 		${0}
 	}
-snippet $
-	$(${1}).on('${2:click}', function (e) {
-		${0}
-	})

@@ -58,3 +58,337 @@ snippet @mbo
 	@include media-breakpoint-only(${0:sm}) {
 		${1}
 	}
+
+# copied from css
+snippet !
+	!important
+snippet di
+	display: inline;
+snippet db
+	display: block;
+snippet di
+	display: inline;
+snippet dib
+	display: inline-block;
+snippet dn
+	display: none;
+snippet dt
+	display: table;
+snippet dtc
+	display: table-cell;
+snippet dtr
+	display: table-row;
+snippet df
+	display: flex;
+snippet dif
+	display: inline-flex;
+snippet ma
+	margin: ${1:10}px;
+snippet ml
+	margin-left: ${1:10}px;
+snippet mt
+	margin-top: ${1:10}px;
+snippet mr
+	margin-right: ${1:10}px;
+snippet mb
+	margin-bottom: ${1:10}px;
+snippet pa
+	padding: ${1:10}px;
+snippet pl
+	padding-left: ${1:10}px;
+snippet pt
+	padding-top: ${1:10}px;
+snippet pr
+	padding-right: ${1:10}px;
+snippet pb
+	padding-bottom: ${1:10}px;
+snippet m0
+	margin: 0;
+snippet m0a
+	margin: 0 auto;
+snippet p0
+	padding: 0;
+snippet w
+	width: ${1:100%};
+snippet wi
+	width: ${1:100%};
+snippet wa
+	width: auto;
+snippet ha
+	height: auto;
+snippet li
+	line-height: 
+snippet lh
+	line-height: 
+snippet hlh
+	line-height: $1;
+	height: ${1:};
+snippet h
+	height: 
+snippet he
+	height: ${1:100px};${2}
+snippet wh
+	width: $1;
+	height: ${1:};
+snippet whl
+	width: $1;
+	height: $1;
+	line-height: ${1:};
+snippet mh
+	min-height: 
+snippet mw
+	min-width: 
+snippet ba
+	background: ${1:black};
+snippet bg
+	background: url('${1}') ${2:no-repeat} ${3:0} ${4:0} ${5:#000000};
+snippet ta
+	text-align: ${1:center};
+snippet c
+	color: ${1:black};
+snippet po
+	position: ${1:relative};
+snippet td
+	text-decoration: ${1:none};
+snippet vam
+	vertical-align: middle;
+snippet vat
+	vertical-align: top;
+snippet vab
+	vertical-align: bottom;
+snippet vabl
+	vertical-align: baseline;
+snippet bo
+	border: 
+snippet bb
+	border-bottom: 
+snippet bt
+	border-top: 
+snippet br
+	border-right: 
+snippet bl
+	border-left: 
+snippet bn
+	border: none;
+snippet bbn
+	border-bottom: none;
+snippet bln
+	border-left: none;
+snippet brn
+	border-right: none;
+snippet btn
+	border-top: none;
+snippet oh
+	overflow: hidden;
+snippet oxh
+	overflow-x: hidden;
+snippet oyh
+	overflow-y: hidden;
+snippet oya
+	overflow-y: auto;
+snippet oxa
+	overflow-x: auto;
+snippet ov
+	overflow: visible;
+snippet oa
+	overflow: auto;
+snippet z
+	z-index: ${1:1};
+snippet fs
+	font-size: 
+snippet fwb
+	font-weight: bold;
+snippet fwn
+	font-weight: normal;
+snippet fwl
+	font-weight: lighter;
+snippet fsi
+	font-style: italic;
+snippet fsn
+	font-style: normal;
+snippet fw
+	font-weight: ${1:bold};
+snippet bcc
+	border-collapse: collapse;
+snippet bcs
+	border-collapse: separate;
+snippet bor
+	border-radius: ${1};
+snippet bs
+	box-shadow: ${1};
+snippet bsn
+	box-shadow: none;
+snippet l
+	left: ${1:0px};
+snippet r
+	right: ${1:0px};
+snippet b
+	bottom: ${1:0px};
+snippet t
+	top: ${1:0px};
+snippet tl
+	left: ${2:0};
+	top: ${3:0};${1}
+snippet lb
+	left: ${2:0};
+	bottom: ${3:0};${1}
+snippet rb
+	right: ${2:0};
+	bottom: ${3:0};${1}
+snippet tr
+	right: ${2:0};
+	top: ${3:0};${1}
+snippet la
+	left: auto;
+snippet ra
+	right: auto;
+snippet lsn
+	list-style: none;
+snippet lstn
+	list-style-type: none;
+snippet {
+	{
+		${0}
+	}
+snippet f
+	float: ${1:left};
+snippet fl
+	float: left;
+snippet fr
+	float: right;
+snippet fn
+	float: none;
+snippet por
+	position: relative;
+snippet poa
+	position: absolute;
+snippet pos
+	position: static;
+snippet pof
+	position: fixed;
+snippet tal
+	text-align: left;
+snippet tar
+	text-align: right;
+snippet tac
+	text-align: center;
+snippet taj
+	text-align: justify;
+snippet tdn
+	text-decoration: none;
+snippet tdu
+	text-decoration: underline;
+snippet bgc
+	background-color: ${1};
+snippet cl
+	clear: left;
+snippet cr
+	clear: right;
+snippet cn
+	clear: none;
+snippet cb
+	clear: both;
+snippet *
+	*zoom: 1;
+snippet cup
+	cursor: pointer;
+snippet cut
+	cursor: text;
+snippet cud
+	cursor: default;
+snippet tra
+	transition: all linear 1s;
+snippet tf
+	transform: ${1:};
+snippet ti
+	text-indent: -9999px;
+snippet ttn
+	text-transform: none;
+snippet ttu
+	text-transform: uppercase;
+snippet ttl
+	text-transform: lowercase;
+snippet ttc
+	text-transform: capitalize;
+snippet les
+	letter-spacing: ${1};
+snippet wos
+	word-spacing: ${1};
+snippet ws
+	white-space: 
+snippet wsnw
+	white-space: nowrap;
+snippet ww
+	word-wrap: 
+snippet vh
+	visibility: hidden;
+snippet vv
+	visibility: visible;
+snippet ff
+	font-family: 
+snippet @f
+	@font-face {
+		 font-family: ${1};
+		 src: url(${2}.eot);
+		 src:
+			 url(${3}.eot?iefix) format('eot'),
+			 url(${4}.woff) format('woff'),
+			 url(${5}.ttf) format('truetype'),
+			 url(${6}.svg#) format('svg');
+		 }
+snippet toe
+	text-overflow: ellipsis;
+snippet bgi
+	background-image: url('${1}');
+snippet bgin
+	background-image: none;
+snippet bgr
+	background-repeat: ${1};
+snippet bgrn
+	background-repeat: no-repeat;
+snippet bgp
+	background-position: ${1};
+snippet bgn
+	background: none;
+snippet bgs
+	background-size: ${1};
+snippet bgsc
+	background-size: cover;
+snippet :h
+	:hover 
+snippet :f
+	:focus 
+snippet :ac
+	:active 
+snippet :a
+	:after 
+snippet :b
+	:before 
+snippet co
+	content: '';
+snippet ts
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+snippet tsn
+	text-shadow: none;
+snippet rgba
+	rgba(0, 0, 0, 0.5);
+snippet rw
+	rgba(255, 255, 255, 0.5);
+snippet on
+	outline: none;
+snippet o1
+	outline: 1px dotted;
+snippet fdr
+	flex-direction: row;
+snippet fdc
+	flex-direction: column;
+snippet ai
+	align-items: ${1};
+snippet aic
+	align-items: center;
+snippet jc
+	justify-content: ${1};
+snippet jcc
+	justify-content: center;
+snippet jcsb
+	justify-content: space-between;
